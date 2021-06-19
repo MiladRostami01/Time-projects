@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Stop Watch</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>STOPWTCH </h1>
+    <p><span id="minutes">00</span>:<span id="seconds">00</span>:<span id="tens">00</span></p>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <button id="reset">Reset</button>
+
+    <!-- JavaScript Clock -->
+    <div class="clock-container">
+      <h1>JavaScript Clock</h1>
+      <div class="clock"></div>
+    </div>
+
+    <!-- countdown timer  -->
+
+    <div class="countdown-container">
+      <h1>Countdown Timer</h1>
+      <div class="countdown-content"><span>set the time : </span><input type="date"></div>
+      <div class="result">
+        <div>
+          <h2 id="day"></h2>
+          <p>Days</p>
+        </div>
+        <div>
+          <h2 id="hour"></h2>
+          <p>Hours</p>
+        </div>
+        <div>
+          <h2 id="minute"></h2>
+          <p>Minuts</p>
+        </div>
+        <div>
+          <h2 id="second"></h2>
+          <p>Seconds</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
