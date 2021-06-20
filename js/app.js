@@ -96,8 +96,8 @@ window.addEventListener('load' , () => {
     }
     
     for (const key in date) {
-      date[key] = (date[key] <= 9) ? '' + date[key] : date[key]
-    }0
+      date[key] = (date[key] <= 9) ? '0' + date[key] : date[key]
+    }
 
     clock.innerHTML = `${date.hours}:${date.minutes}:${date.seconds} ${date.session}`
   },1000)
